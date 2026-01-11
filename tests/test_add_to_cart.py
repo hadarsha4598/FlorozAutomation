@@ -1,4 +1,7 @@
-from pages.home_page import HomePage
+import allure
+import time
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import Select
 
 
 def test_floroz_add_to_cart(driver):
